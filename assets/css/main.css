@@ -1,7 +1,5 @@
 @import './reset.css';
 @import './style.css';
-@import './responsivity.css';
-@import './scrollbar.css';
 
 /* default styles */
 * {

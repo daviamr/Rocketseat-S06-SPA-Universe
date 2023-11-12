@@ -9,3 +9,4 @@ router.add(404, './src/pages/404.html');
 router.handler();
 
 window.route = () => router.route();
+window.onpopstate = () => { router.handler(); };
