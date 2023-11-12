@@ -1,0 +1,10 @@
+/* custom scroll bar */
+::-webkit-scrollbar {
+    width: .4rem;
+    background: var(--black);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--white);
+    border-radius: .4rem;
+}

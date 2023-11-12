@@ -1,0 +1,26 @@
+@import './reset.css';
+@import './style.css';
+@import './responsivity.css';
+@import './scrollbar.css';
+
+/* default styles */
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --roboto: 'Roboto', sans-serif;
+    --white: #FFFFFF;
+    --black: #000000;
+    --gray-400: #C4C4CC;
+    --gray-500: #E1E1E6;
+}
+
+body {
+    position: relative;
+    font-family: var(--roboto);
+    font-size: 1.6rem;
+}
+
+/* controls */
